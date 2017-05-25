@@ -13,8 +13,10 @@ int multiplica(int x, int y){
 	return x*y;
 }
 
-int divide(){
-	
+int divide(int x, int y){
+	if(y != 0)
+		return x/y;
+	return -299;
 }
 
 int main(){
