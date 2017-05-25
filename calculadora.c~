@@ -1,16 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int soma(){}
+int soma(int x, int y){
+	return x+y;	//Alteração feita na branch fSoma
+}
 
-int subtrai(){}
+int subtrai(){
+	
+}
 
-int multiplica(){}
+int multiplica(){
+	
+}
 
-int divide(){}
+int divide(){
+	
+}
 
 int main(){
 	printf("Hello git!");
+	printf("Soma: %d",soma(2,2));
 	printf("\n");
 	return 0;
 }
