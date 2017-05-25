@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int soma(){}
+
+int subtrai(){}
+
+int multiplica(){}
+
+int divide(){}
+
+int main(){
+	printf("Hello git!");
+	printf("\n");
+	return 0;
+}
